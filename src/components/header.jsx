@@ -1,8 +1,8 @@
 import React from 'react'
 
-function header() {
+function Header() {
   return (
-      <header id="header" style={{ height: '73px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid gainsboro', marginBottom: '44px' }}>
+    <header id="header" style={{ height: '73px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid gainsboro', marginBottom: '44px' }}>
       <input type="text" placeholder="Search type of keywords" style={{ padding: '8px', width: '250px' }} />
 
       <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -13,8 +13,7 @@ function header() {
         </div>
       </div>
     </header>
-  
   )
 }
 
-export default header
+export default Header
