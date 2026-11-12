@@ -8,7 +8,7 @@ import Transactions from './components/Transactions'
 
 function App() {
   return (
-   <div style={{ display: 'flex', width: '1440px', minHeight: '100vh', fontFamily: 'sans-serif' }}>
+   <div style={{ display: 'flex', width: '1440px', minHeight: '100vh', fontFamily: 'sans-serif', fontSize: '12px'}}>
       <Sidebar />
 
       <main style={{ flex: 1, padding: '32px 40px', boxSizing: 'border-box' }}>
